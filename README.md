@@ -20,7 +20,7 @@
 
 ## About Me
 
-I'm a **Full-Stack Developer & AI Engineering student** based in **Casablanca, Morocco**, running my own agency **[VetaProf](https://github.com/gloxoss)**. I specialize in building production-grade SaaS platforms, AI agent systems, and e-commerce solutions.
+I'm a **Full-Stack Developer & AI Engineering student** based in **Casablanca, Morocco**, running my own agency. I specialize in building production-grade SaaS platforms, AI agent systems, and e-commerce solutions.
 
 - 🔭 Currently building **multi-agent AI dashboards** with LangGraph + LangChain
 - 🏗️ Architecting **VetaProf** — a veterinary professional uniforms e-commerce platform
