@@ -24,26 +24,46 @@
 
 ---
 
-### 🧬 About & Research Focus
+### 🧬 About & Core Engineering Pillars
 
-Dual-Master's engineering graduate combining **clinical-grade medical artificial intelligence** and **distributed software architecture**. 5+ years of software craft, 15+ systems delivered in production across healthcare, fleet logistics, and mission-critical SaaS through **EPIOSO Studio**.
+Dual-Master's engineering graduate combining **clinical-grade medical artificial intelligence** and **distributed software architecture**. 5+ years of software craft, 15+ systems delivered in production across healthcare, fleet logistics, enterprise ERPs, and automation through **EPIOSO Studio**.
 
-- 🔬 **Medical Computer Vision & WSI:** Histopathology gigapixel tile streaming (Whole Slide Images), cell annotation overlays, and deep convolutional architectures.
-- 🩻 **Chest Radiography Diagnostics:** Multi-architecture classification benchmarks (`ResNet50`, `MobileNetV2`, `YOLOv8-cls`, 4-layer custom CNN) with concurrent FastAPI inference pipelines.
-- 🌐 **Distributed Systems & SaaS:** Strict multi-tenant isolation (`tenantId`), RBAC, real-time WebSocket telemetry, BullMQ background queues, and production PostgreSQL.
+- 🔬 **Medical AI & Computer Vision:** Whole Slide Imaging (WSI) gigapixel streaming, vector ROI cellular annotation, and chest radiography classification benchmarks (`ResNet50`, `MobileNetV2`, `YOLOv8-cls`).
+- 🌐 **Distributed Systems & SaaS:** Multi-tenant architecture (`tenantId`), RBAC, real-time WebSocket telemetry, BullMQ background queues, and production PostgreSQL.
+- ⚡ **Agent Workspaces & Tooling:** Autonomous developer agent orchestrations, local-first memory bridges, and enterprise business automation.
 
 ---
 
-### 🌟 Featured Repositories
+### 🌟 Shipped Systems & Public Repositories
 
-| Repository | Tech Stack | Highlights |
+| Project / Repository | Tech Stack | Type / Domain | Highlights |
+|---|---|---|---|
+| [**`haloui-system`**](https://github.com/gloxoss/haloui-system) | `React` `TypeScript` `Node.js` | **Industrial B2B ERP** | Multi-warehouse inventory, lot traceability, and automated invoice/delivery note generation. |
+| [**`Fes-Tawsil`**](https://fes-tawsil.com) | `Next.js` `TypeScript` `PostgreSQL` | **Logistics SaaS (Live)** | Last-mile parcel delivery, live courier tracking, merchant portal, and COD reconciliation engine. |
+| [**`model-eval`**](https://github.com/gloxoss/model-eval) | `PyTorch` `YOLOv8` `FastAPI` | **Medical AI Benchmark** | Thoracic X-ray pneumonia classification across 4 trained checkpoints with FastAPI batch inference. |
+| [**`medical-portfolio-software`**](https://github.com/gloxoss/medical-portfolio-software) | `NestJS` `Next.js` `Prisma` | **MediCore HIS** | Hospital Information System with clinical encounters, RBAC, patient intake, and billing pipelines. |
+| [**`agent-hub-kit`**](https://github.com/gloxoss/agent-hub-kit) | `JavaScript` `Node.js` `CLI` | **Agent Orchestrator** | Developer workspace scaffold for managing local CLI agent fleets, tool bridges, and tasks. |
+| [**`epioso-brain`**](https://github.com/gloxoss/epioso-brain) | `TypeScript` `Prisma` `FastAPI` | **AgentOS Workspace** | Local-first multi-agent coordination scaffold, memory retrieval, and LLM governance. |
+| [**`sectionforge`**](https://github.com/gloxoss/sectionforge) | `TypeScript` `React` `Chrome Ext` | **AI Dev Tooling** | Chrome extension extracting live website sections into clean React + Framer Motion code. |
+| [**`Local-Rabbit`**](https://github.com/gloxoss/Local-Rabbit) | `Python` `FastAPI` `Docker` | **Distributed Infra** | Self-hosted async message broker worker testbed with Docker and automated test suites. |
+| [**`gluco`**](https://github.com/gloxoss/gluco) | `TypeScript` `Next.js` `Tailwind` | **HealthTech App** | GlucoCare patient glycemic tracking dashboard with fasting/post-prandial glucose analytics. |
+
+---
+
+### 🏢 Client & Production Systems Overview
+
+| System | Production Scope | Domain |
 |---|---|---|
-| [**`model-eval`**](https://github.com/gloxoss/model-eval) | `PyTorch` `YOLOv8` `FastAPI` `Next.js` | Thoracic X-ray pneumonia classification across 4 trained convolutional checkpoints with batch inference telemetry. |
-| [**`medical-portfolio-software`**](https://github.com/gloxoss/medical-portfolio-software) | `NestJS` `Next.js` `Prisma` `PostgreSQL` | MediCore Hospital Information System (HIS) — Clinical encounters, patient intake, RBAC, and billing pipelines. |
-| [**`sectionforge`**](https://github.com/gloxoss/sectionforge) | `TypeScript` `React` `Chrome Extension` | Chrome extension extracting live website layouts, styles, and animation tokens into React + Framer Motion components. |
-| [**`gluco`**](https://github.com/gloxoss/gluco) | `TypeScript` `Next.js` `Tailwind` | GlucoCare patient glycemic tracking dashboard with fasting/post-prandial glucose logging and insulin analytics. |
-| [**`epioso-brain`**](https://github.com/gloxoss/epioso-brain) | `TypeScript` `Prisma` `FastAPI` | AgentOS governance workspace scaffold for multi-agent coordination, memory retrieval, and local-first execution. |
-| [**`Local-Rabbit`**](https://github.com/gloxoss/Local-Rabbit) | `Python` `FastAPI` `Docker` | Self-hosted asynchronous broker integration and worker testbed with robust test suites. |
+| **WaysLik (AtlasFleet)** | Live B2B SaaS ([`wayslik.tech`](https://wayslik.tech)) | Real-time WebSocket GPS telemetry, fleet compliance & fuel monitoring |
+| **Fes-Tawsil** | Live Operations ([`fes-tawsil.com`](https://fes-tawsil.com)) | Last-mile courier parcel delivery & Cash-On-Delivery (COD) financial engine |
+| **Wenaya** | Live Platform ([`wenaya.epioso.com`](https://wenaya.epioso.com)) | Clinical appointment orchestration, digital intake & patient care pathways |
+| **Dar Samira** | Digital Commerce ([Case Study](https://epioso.com/work/dar-samira)) | Bespoke catering quote configurator & luxury Moroccan pastry storefront |
+| **SchoolOS** | Multi-Tenant ERP | Private school management SaaS with strict `tenantId` isolation & MAD tuition billing |
+| **Morene Parfums** | Headless E-commerce | Luxury fragrance engine on Medusa.js v2 with custom sample-set discovery builder |
+| **Lango English Center** | Enterprise EdTech | Dedicated English learning academy platform & student progress tracking |
+| **ParaLoca** | Commerce Platform | Parapharmacy multi-category catalog, inventory & digital brand system |
+| **Twenty-CRM** | Internal Architecture | Self-hosted CRM instance tailored for studio deal tracking and customer pipelines |
+| **Epioso Outreach OS** | B2B Automation | Automated lead enrichment, scraping pipelines & personalized outreach engine |
 
 ---
 
