@@ -1,130 +1,78 @@
 <div align="center">
 
-<!-- Custom ASCII/text logo mark -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:01696f,100:0f3638&height=200&section=header&text=oss+ama&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack+Developer+%7C+AI+Engineer+%7C+VetaProf&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+# Oussama Zaki (`@gloxoss`)
+### AI & Distributed Systems Engineer · Founder of [EPIOSO Studio](https://epioso.com)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-gloxoss.me-FF6B2D?style=flat-square&logo=safari&logoColor=white)](https://gloxoss.me)
+[![EPIOSO Studio](https://img.shields.io/badge/Studio-epioso.com-111111?style=flat-square)](https://epioso.com)
+[![CV PDF](https://img.shields.io/badge/Resume-PDF-DE322D?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://gloxoss.me/Oussama_Zaki_CV.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-oss--ama-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/oss-ama-6ab8a0255)
+[![X / Twitter](https://img.shields.io/badge/X-@glo__xoss-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/glo_xoss)
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║  🎓 M2 Medical Engineering & AI (ENSAM Casablanca) · 2025–2027                       ║
+║  🎓 M1 Distributed Information Systems (FST Fès) · 2024–2026                         ║
+║  📍 Casablanca & Fès, Morocco · contact@epioso.com · +212 6 87 91 10 54             ║
+║  🚀 Available for a 6-month Master's / PFE Internship starting February 2027         ║
+╚══════════════════════════════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
 ---
 
-<div align="center">
+### 🧬 About & Research Focus
 
-```
- ╔══════════════════════════════════════════════════════╗
- ║  Building intelligent web systems from Casablanca    ║
- ║  Next.js · FastAPI · LangGraph · MongoDB · TypeScript ║
- ╚══════════════════════════════════════════════════════╝
-```
+Dual-Master's engineering graduate combining **clinical-grade medical artificial intelligence** and **distributed software architecture**. 5+ years of software craft, 15+ systems delivered in production across healthcare, fleet logistics, and mission-critical SaaS through **EPIOSO Studio**.
 
-</div>
-
-## About Me
-
-I'm a **Full-Stack Developer & AI Engineering student** based in **Casablanca, Morocco**, running my own agency. I specialize in building production-grade SaaS platforms, AI agent systems, and e-commerce solutions.
-
-- 🔭 Currently building **multi-agent AI dashboards** with LangGraph + LangChain
-- 🏗️ Architecting **VetaProf** — a veterinary professional uniforms e-commerce platform
-- 🤖 Exploring **RAG systems**, **deep learning (CNNs/Transformers)**, and **NLP embeddings**
-- 🎬 Content creator — **video production** with DaVinci Resolve + AI generation tools
-- 📍 **Casablanca, Morocco**
+- 🔬 **Medical Computer Vision & WSI:** Histopathology gigapixel tile streaming (Whole Slide Images), cell annotation overlays, and deep convolutional architectures.
+- 🩻 **Chest Radiography Diagnostics:** Multi-architecture classification benchmarks (`ResNet50`, `MobileNetV2`, `YOLOv8-cls`, 4-layer custom CNN) with concurrent FastAPI inference pipelines.
+- 🌐 **Distributed Systems & SaaS:** Strict multi-tenant isolation (`tenantId`), RBAC, real-time WebSocket telemetry, BullMQ background queues, and production PostgreSQL.
 
 ---
 
-## Tech Stack
+### 🌟 Featured Repositories
 
-**Frontend**
-```
-Next.js 15 (App Router) · React · TypeScript · TailwindCSS · GSAP · Three.js
-```
+| Repository | Tech Stack | Highlights |
+|---|---|---|
+| [**`model-eval`**](https://github.com/gloxoss/model-eval) | `PyTorch` `YOLOv8` `FastAPI` `Next.js` | Thoracic X-ray pneumonia classification across 4 trained convolutional checkpoints with batch inference telemetry. |
+| [**`medical-portfolio-software`**](https://github.com/gloxoss/medical-portfolio-software) | `NestJS` `Next.js` `Prisma` `PostgreSQL` | MediCore Hospital Information System (HIS) — Clinical encounters, patient intake, RBAC, and billing pipelines. |
+| [**`sectionforge`**](https://github.com/gloxoss/sectionforge) | `TypeScript` `React` `Chrome Extension` | Chrome extension extracting live website layouts, styles, and animation tokens into React + Framer Motion components. |
+| [**`gluco`**](https://github.com/gloxoss/gluco) | `TypeScript` `Next.js` `Tailwind` | GlucoCare patient glycemic tracking dashboard with fasting/post-prandial glucose logging and insulin analytics. |
+| [**`epioso-brain`**](https://github.com/gloxoss/epioso-brain) | `TypeScript` `Prisma` `FastAPI` | AgentOS governance workspace scaffold for multi-agent coordination, memory retrieval, and local-first execution. |
+| [**`Local-Rabbit`**](https://github.com/gloxoss/Local-Rabbit) | `Python` `FastAPI` `Docker` | Self-hosted asynchronous broker integration and worker testbed with robust test suites. |
 
-**Backend**
-```
-FastAPI · Node.js · Express · NestJS · REST · GraphQL
-```
+---
 
-**AI / ML**
-```
-LangGraph · LangChain · Ollama · OpenAI API · Gemini · Anthropic Claude
-TensorFlow · CNNs · Transformers · RAG · Prompt Engineering
-```
+### 🛠️ Production Stack
 
-**Databases & Cloud**
 ```
-MongoDB · PostgreSQL · MySQL · Redis
-Google Cloud · Oracle Cloud · Firebase · Vercel
-```
-
-**Tools**
-```
-VS Code · Cursor · Figma · DaVinci Resolve · Claude Code · GitHub Copilot
+AI / Deep Learning : PyTorch · Torchvision · YOLOv8 · OpenCV · Scikit-learn · FastAPI Inference
+Distributed & Back : Node.js · NestJS · Python (FastAPI) · Java (Spring Boot) · WebSockets · BullMQ · Redis
+Frontend & Mobile  : TypeScript · Next.js 16 (App Router) · React 19 · Tailwind CSS v4 · GSAP · Kotlin (MVVM)
+Data & Systems     : PostgreSQL · Prisma ORM · Supabase · Payload CMS 3 · Medusa.js v2 · MongoDB
+DevOps & Tooling   : Docker · Linux (VPS / SSH) · GitHub Actions · Nginx · PM2 · n8n Workflows
 ```
 
 ---
 
-## GitHub Stats
+### 📊 GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gloxoss&theme=merko&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&bg_color=0d1117&title_color=4f98a3&icon_color=4f98a3&text_color=cdccca" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gloxoss&theme=merko&hide_border=true&layout=compact&bg_color=0d1117&title_color=4f98a3&text_color=cdccca&langs_count=8" />
+<img height="155" src="https://github-readme-stats.vercel.app/api?username=gloxoss&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gloxoss&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
 
-</div>
+<br/>
 
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=gloxoss&theme=merko&hide_border=true&background=0d1117&ring=4f98a3&fire=4f98a3&currStreakLabel=4f98a3" />
-
-</div>
-
----
-
-## Current Focus
-
-```python
-class OssAma:
-    role        = ["Full-Stack Developer", "AI Engineer", "Agency Owner"]
-    agency      = "VetaProf"
-    location    = "Casablanca, Morocco 🇲🇦"
-    
-    stack = {
-        "frontend"  : ["Next.js", "React", "TypeScript", "TailwindCSS"],
-        "backend"   : ["FastAPI", "Node.js", "MongoDB"],
-        "ai"        : ["LangGraph", "LangChain", "RAG", "Ollama"],
-        "devops"    : ["Vercel", "Google Cloud", "Docker"],
-    }
-    
-    currently_learning = [
-        "Deep Learning (CNNs, RNNs, Transformers)",
-        "Multi-agent AI orchestration",
-        "Advanced GSAP animations",
-    ]
-    
-    ask_me_about = [
-        "Next.js App Router architecture",
-        "AI agent systems",
-        "SaaS platform design",
-        "E-commerce with MongoDB",
-    ]
-```
-
----
-
-## Connect
-
-<div align="center">
-
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/glo_xoss)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oss-ama-6ab8a0255/)
-[![CodePen](https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/gloxoss)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3638,100:01696f&height=100&section=footer" width="100%"/>
-
-<sub>Building from Casablanca · Open to collaborations on AI + Web projects</sub>
+<a href="https://gloxoss.me">
+  <img src="https://img.shields.io/badge/Explore%20Personal%20Website-gloxoss.me-FF6B2D?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://epioso.com">
+  <img src="https://img.shields.io/badge/Visit%20Studio-epioso.com-111111?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
 
 </div>
