@@ -1,6 +1,6 @@
 ## Oussama Zaki
 
-Software and applied AI engineer. I design and ship production platforms (SaaS, ERP, logistics, e-commerce) and the AI that runs inside them, including in digital health.
+Software and applied AI developer. I design and ship production platforms (SaaS, ERP, logistics, e-commerce) and the AI that runs inside them, including in digital health.
 
 Founder of [EPIOSO Studio](https://epioso.com) · M2 Medical Engineering & AI, ENSAM Casablanca · M1 Distributed Systems, FST Fès
 
@@ -25,7 +25,7 @@ Founder of [EPIOSO Studio](https://epioso.com) · M2 Medical Engineering & AI, E
 **DataPathology** · AI & Software Engineering Intern · Casablanca · Jun – Sep 2026\
 Digital pathology SaaS for high-resolution slides. Built the real-time annotation engine (Fabric.js, OpenSeadragon, PostGIS) on a FastAPI / OpenSlide / Redis tile server, integrated PyTorch ROI inference, and wrote the HL7 export module.
 
-**EPIOSO Studio** · Founder, software & AI engineer · Casablanca · 2023 – present\
+**EPIOSO Studio** · Founder, software & AI developer · Casablanca · 2023 – present\
 More than 10 production platforms for Moroccan businesses: fleet management, last-mile delivery, school administration, health and e-commerce.
 
 <br>
