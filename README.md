@@ -1,12 +1,12 @@
 ## Oussama Zaki
 
-AI and distributed systems engineer. I build deep learning models for medical imaging, and the software that puts them in front of clinicians.
+Software and applied AI engineer. I design and ship production platforms (SaaS, ERP, logistics, e-commerce) and the AI that runs inside them, including in digital health.
 
-M2 Medical Engineering & AI, ENSAM Casablanca · M1 Distributed Information Systems, FST Fès · Founder of [EPIOSO Studio](https://epioso.com)
+Founder of [EPIOSO Studio](https://epioso.com) · M2 Medical Engineering & AI, ENSAM Casablanca · M1 Distributed Systems, FST Fès
 
-**Looking for a 6-month PFE research internship from February 2027** in medical vision, deep learning or distributed systems.
+**Looking for a full-time 6-month PFE internship from January 2027** in software engineering, applied AI or digital health.
 
-[gloxoss.me](https://gloxoss.me) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/oss-ama-6ab8a0255) &nbsp;·&nbsp; [CV (PDF)](https://gloxoss.me/Oussama_Zaki_CV.pdf) &nbsp;·&nbsp; contact@epioso.com
+[gloxoss.me](https://gloxoss.me) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/oss-ama-6ab8a0255) &nbsp;·&nbsp; [CV (PDF)](https://gloxoss.me/Oussama_Zaki_CV.pdf) &nbsp;·&nbsp; oussama@epioso.com
 
 <br>
 
@@ -14,10 +14,9 @@ M2 Medical Engineering & AI, ENSAM Casablanca · M1 Distributed Information Syst
 
 | Area | What I work on |
 |---|---|
-| Computational pathology | Gigapixel whole slide images: tile streaming, ROI annotation, and keeping viewer and database coordinates in sync |
-| Medical image classification | Comparing CNN architectures on chest X-rays under one evaluation protocol |
-| Clinical software | Health data platforms, care workflows, AI assistants with a human in the loop |
-| Distributed systems | Multi-tenant SaaS, job queues, real-time backends, containerised deployments |
+| Production platforms | Multi-tenant SaaS and ERP, real-time backends, job queues, Docker deployments |
+| Applied AI | PyTorch vision pipelines, RAG assistants, LLM agents and automation inside real products |
+| Digital health | Digital pathology, medical image classification, HL7 interoperability, tools for practitioners |
 
 <br>
 
@@ -26,8 +25,8 @@ M2 Medical Engineering & AI, ENSAM Casablanca · M1 Distributed Information Syst
 **DataPathology** · AI & Software Engineering Intern · Casablanca · Jun – Sep 2026\
 Digital pathology SaaS for high-resolution slides. Built the real-time annotation engine (Fabric.js, OpenSeadragon, PostGIS) on a FastAPI / OpenSlide / Redis tile server, integrated PyTorch ROI inference, and wrote the HL7 export module.
 
-**EPIOSO Studio** · Founder, full-stack and AI engineer · Casablanca · 2023 – present\
-Production platforms for Moroccan businesses: fleet management, last-mile delivery, health, school administration and e-commerce.
+**EPIOSO Studio** · Founder, software & AI engineer · Casablanca · 2023 – present\
+More than 10 production platforms for Moroccan businesses: fleet management, last-mile delivery, school administration, health and e-commerce.
 
 <br>
 
@@ -35,10 +34,10 @@ Production platforms for Moroccan businesses: fleet management, last-mile delive
 
 | Repository | What it is | Stack |
 |---|---|---|
-| [model-eval](https://github.com/gloxoss/model-eval) | Chest X-ray classifier (COVID-19, pneumonia, normal) comparing a custom CNN, MobileNetV2, ResNet50 and YOLOv8 | Python, PyTorch, FastAPI |
-| [gluco](https://github.com/gloxoss/gluco) | GlucoCare: diabetes management with glucose and insulin tracking, ML glucose forecasting, teleconsultation and OCR document checks | .NET 8, Next.js, FastAPI, Docker |
 | [haloui-system](https://github.com/gloxoss/haloui-system) | Haloui ERP: inventory with FEFO lot traceability, multi-warehouse stock and manufacturing orders, on web and desktop | Next.js, Electron, SQLite |
 | [Local-Rabbit](https://github.com/gloxoss/Local-Rabbit) | AI code reviewer that runs entirely on your machine with Ollama | Python, Ollama, Docker |
+| [model-eval](https://github.com/gloxoss/model-eval) | Chest X-ray classifier (COVID-19, pneumonia, normal) comparing a custom CNN, MobileNetV2, ResNet50 and YOLOv8 | Python, PyTorch, FastAPI |
+| [gluco](https://github.com/gloxoss/gluco) | GlucoCare: diabetes management with glucose and insulin tracking, ML glucose forecasting, teleconsultation and OCR document checks | .NET 8, Next.js, FastAPI, Docker |
 | [sectionforge](https://github.com/gloxoss/sectionforge) | Chrome extension that turns a website section into React, Tailwind and Framer Motion code | TypeScript, React |
 | [agent-hub-kit](https://github.com/gloxoss/agent-hub-kit) | Orchestration kit: one session plans and reviews, background agents build | JavaScript, Node.js |
 
